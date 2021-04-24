@@ -10,7 +10,7 @@
 
 为了方便app等软件开发，收集站内api，持续更新
 
-## 网站模板提供
+## 网站模板提供的api
 
 本节api如果无特殊说明，均以以下开头
 ```
@@ -31,6 +31,7 @@ https://网站域名/wp-content/themes/LightSNS版本号/
 - [收藏](./content/collect.md)
 - [打赏](./content/reward.md)
 - [问答相关](./content/answer.md)
+- [评论点赞](./content/commentUp.md)
 
 ### 用户操作相关
 
@@ -49,3 +50,18 @@ https://网站域名/wp-content/themes/LightSNS版本号/
 - [修改昵称](./userUpdate/nickname.md)
 - [修改头像](./userUpdate/avatar.md)
 - 修改其他信息
+
+
+## 自定义插件提供的REST API
+
+为了弥补网站主题提供的 api 数量不足，功能不足等问题，又开发了以下api进行补充
+
+### 内容获取
+
+本章的api前缀为
+
+```url
+https://网站域名/wp-json/mfuns
+```
+
+- [文章查询器]()
